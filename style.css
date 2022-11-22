@@ -1,0 +1,313 @@
+body {
+  font-family: 'Verdana', sans-serif;
+}
+
+
+
+/* header*/
+
+header {
+  height: 100vh;
+  background: url(images/main_background.png) no-repeat center center /cover;
+}
+
+/*navbar*/
+.nav-menu{
+  background: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, .5));
+  padding: 30px;
+  transition: all .7s;
+}
+
+.navbar-brand{
+  color: #f07b05
+}
+
+.dropdown-menu{
+  background: linear-gradient(rgba(0, 0, 0, .2), rgba(0, 0, 0, .05));;
+
+}
+.menu-item{
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #eee;
+  transition: color .5s;
+}
+
+.menu-item:hover{
+  color: #f07b05;
+}
+
+.nav-active {
+  color: #0a8bd6;
+  background-color: #f07b05;
+}
+
+.line1, .line2, .line3 {
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+}
+
+.custom-navbar{
+  padding: 5px 30px;
+  background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .7));
+}
+
+/*end of navbar*/
+
+/*banner*/
+.frontier {
+  
+  background: url(images/space..jpg) no-repeat center center /cover;
+}
+
+
+
+.banner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
+.banner-heading{
+  animation-name: anim;
+  animation-duration: 3s;
+}
+
+.banner-par{
+  animation-name: anim1;
+  animation-duration: 3s;
+  animation-delay: .5s;
+  animation-fill-mode: backwards;
+}
+.banner-bottom{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes anim1 {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100%{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+/*end of banner*/
+
+/*end of header*/
+
+/*Gallery*/
+
+.gallery{
+  background: url(images/gallery_logo.jpg) no-repeat center center /cover;
+}
+
+.underline-dark {
+  width: 150px;
+  border: 3px solid #888;
+  margin: auto;
+}
+
+.gallery-list-item{
+  color: #777;
+  cursor: pointer;
+  user-select: none;
+}
+
+.gallery-list-item:hover{
+  color: #f07b05;
+}
+
+/*end of gallery*/
+
+/*video*/
+
+.video{
+  padding: 50px;
+  border: 0;
+}
+/*end of video*/
+
+/*games*/
+
+.games{
+  background: url(images/elite_asteroid.jpg) no-repeat center center /cover;
+}
+
+/*end of games*/
+/*galaxy*/
+
+.galaxy{
+  background: url(images/station.jpg) no-repeat center center /cover;
+}
+
+/*end of galaxy*/
+
+/*Contact*/
+
+.contact{
+  background: url(images/planet_elite.jpg) no-repeat center center /cover;
+}
+
+.input:focus{
+ 
+  border-color: transparent;
+  box-shadow: none;
+  border-bottom: 2px solid #f5593d;
+}
+
+
+.submit-button{
+  background: #0a8bd6;
+  color: #eee;
+  transition: all .5s;
+}
+
+.submit-button:hover{
+  background: #f9793d;
+  transform: translateY(-3px);
+}
+
+.label{
+  color: #777;
+  display: block;
+  margin-top: -70px;
+  margin-left: 4px;
+  font-size: 13px;
+  transition: all .3s;
+}
+
+.input:placeholder-shown +.label{
+  transform: translate(20px, 20px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+@media (max-width: 992px) {
+  .contact {
+    background: linear-gradient(rgba(21, 31, 32, 1), rgba(21, 31, 32, .95));
+  }
+
+
+.contact-form{
+  width: 80%;
+  margin: auto;
+  }
+}
+/*end of Contact*/
+
+/*tools*/
+.tools{
+  background: url(images/Planet_Tools.jpg) no-repeat center center /cover;
+}
+/*end of tools*/
+
+/*horizons*/
+
+.horizons_1{
+  background: url(images/Surface_port.png) no-repeat center center /cover;
+}
+
+.horizons_2{
+  background: url(images/SRV.png) no-repeat center center /cover;
+}
+
+/*end of horizons*/
+
+/*odyessy*/
+
+.odyssey_1{
+  background: url(images/cmd_pic.jpg) no-repeat center center /cover;
+}
+
+.odyssey_2{
+  background: url(images/odyessy.jpg) no-repeat center center /cover;
+  color: #000000;
+}
+
+.odyssey_3{
+  background: url(images/odyessy_cmmd.jpg) no-repeat center center /cover;
+}
+
+
+
+/*end of odyessy*/
+
+/*what_is_elite*/
+
+.what_is_elite{
+  background: url(images/planet_ships.jpg) no-repeat center center /cover;
+}
+
+/*end of what_is_elite*/
+
+/*Footer*/
+.footer {
+  background: #000000;
+  padding: 4px;
+}
+
+.footer-link{
+  color: #eee;
+  font-size: 13px;
+  transition: all .3s;
+}
+
+.footer-link:hover{
+ color: #f07b05;
+ text-decoration: none; 
+}
+
+
+
+
+/*end of Footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

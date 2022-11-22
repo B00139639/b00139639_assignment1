@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" href="images/main_logo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Elite Dangerous</title>
+</head>
+<body>
+
+  <!--header-->
+  <header>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top nav-menu">
+      <a href="index.html" class="navbar-brand"><span><img src="images/main_logo.png" alt="Elite Logo" width="100" class="img-fluid main-logo"></span><span class="h2 font-weight-bold">Elite Dangerous</span></a>
+      <button class="navbar-toggler nav-button" type="button" data-toggle="collapse" data-target="#elitenavbar">
+        <div class="bg-light line1"></div>
+        <div class="bg-light line2"></div>
+        <div class="bg-light line3"></div>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end font-weight-bold" id="elitenavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link m-3 menu-item">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about_us.html" class="nav-link m-3 menu-item nav-active">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact_us.html" class="nav-link m-3 menu-item">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a href="what_is_elite.html" class="nav-link m-3 menu-item">What is Elite?</a>
+          </li>
+          <li class="nav-item">
+            <a href="galaxy.html" class="nav-link m-3 menu-item">The Galaxy</a>
+          </li>
+          <li class="nav-item dropdown "><a class="nav-link m-3 menu-item dropdown-toggle" role="button" data-toggle="dropdown" href="#">Expansions</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item menu-item nav-link" href="horizons.html">Horizons</a>
+              <a class="dropdown-item menu-item nav-link" href="odyssey.html">Odyssey</a>
+            </div>
+            </li>
+          <li class="nav-item">
+            <a href="tools.html" class="nav-link m-3 menu-item">Third Party Tools</a>
+          </li>
+        </ul>
+    </div>
+    </nav>
+    <!--end of navbar-->
+    <!--banner-->
+  <div class="text-light text-center banner">
+    <img src="images/Frontier-Logo-2016Mono-Black.png" alt="Frontier Logo"  class="img-fluid m-20 banner-heading">
+    <h1 class="display-4 banner-heading1">About Us!</h1>
+  </div>
+  <!--end of banner-->
+  <div class="banner-bottom text-light text-center">
+    <h2>Scroll to explore &#8595;</h2>
+   </div>
+  </header>
+  <!--end of header-->
+  <section class="p-5 frontier">
+    <div class="container-fluid">
+        <!--title-->
+     <div class="row text-center text-white">
+      <div class="col m-4">
+        <h2 class="display-4 mb-4">Frontier Developments</h2>
+        <p class="lead">We began in 1994, as a new unknown games company, founded by David Braben. To date we have released 36 games, self publishing 15 of them. Our team is 800 strong, delievering the best simulation games on the market. We have built a fantastic development team, which in turn lets us devlop new, exciting and challenging games everytime!</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+<!--games-->
+<section class="p-5 games">
+    <div class="container-fluid text-white">
+      <!--title-->
+   <div class="row text-center">
+    <div class="col m-4">
+      <h2 class="display-4 mb-4">Games we develop</h2>
+      <p class="lead">We at Frontier Developments have some of the best selling games on the market. See below for some examples</p>
+    </div>
+  </div>
+  <!--end of title-->
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        <div class="carousel slide" data-ride="carousel" id="games-carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#games-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#games-carousel" data-slide-to="1"></li>
+            <li data-target="#games-carousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <img src="images/game_1.png" alt="Elite Image" class="img-fluid rounded-circle m-10" width="500">
+              <blockquote class=" blockquote">
+                <p class="mb-5">Explore a 1-1 galaxy! Fight in 38 different ships! You are the commander! Go and do what you want in the galaxy and become Elite!</p>
+              </blockquote>
+              <h4 class="text-uppercase font-weight-bold mb-3">Elite Dangerous</h4>
+            </div>
+            <div class="carousel-item text-center">
+              <img src="images/game_2.jpg" alt="Jurassic Park Image" class="img-fluid rounded-circle m-10" width="500">
+              <blockquote class=" blockquote">
+                <p class="mb-5">Journey to the The Five Deaths island chain. Create and run your own Jurassic Park. Create Stegosaurus, Triceratops and Tyrannosaurus Rex!</p>
+              </blockquote>
+              <h4 class=" text-uppercase font-weight-bold mb-3">Jurassic World Evolution</h4>
+            </div>
+            <div class="carousel-item text-center">
+              <img src="images/game_3.jpg" alt="F1 Manager Image" class="img-fluid rounded-circle m-10" width="500">
+              <blockquote class="blockquote">
+                <p class="mb-5">The newest game to our line up! Be in charge of your favorite Formula 1 team. Every decision is yours from on track battles, to sponsors and team facilities</p>
+              </blockquote>
+              <h4 class=" text-uppercase font-weight-bold mb-3">F1 Manager 22</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  
+  <!--end of games-->
+
+  
+
+<!--Footer-->
+<footer class="footer">
+  <div class="container-fluid">
+    <div class="row text-light py-3">
+      <div class="col-lg-4 col-sm-4">
+        <img src="images/main_logo.png" alt="Elite Logo" width="250" class="img-fluid main-logo">
+      </div>
+      <div class="col-lg-4 col-sm-4 text-center">
+        <h5 class="pb-3">Site Map</h5>
+        <ul class="list-unstyled">
+        <li>
+          <a href="index.html" class="footer-link">Home</a>
+        </li>
+        <li>
+          <a href="about_us.html" class="footer-link">About Us</a>
+        </li>
+        <li>
+          <a href="contact_us.html" class="footer-link">Contact</a>
+        </li>
+        <li>
+          <a href="what_is_elite.html" class="footer-link">What is Elite?</a>
+        </li>
+        <li>
+          <a href="galaxy.html" class="footer-link">The Galaxy</a>
+        </li>
+        <li>
+          <a href="horizons.html" class="footer-link">Horizons</a>
+        </li>
+        <li>
+          <a href="odyssey.html" class="footer-link">Odyssey</a>
+        </li>
+        <li>
+          <a href="tools.html" class="footer-link">Third Party Tools</a>
+        </li>
+        </ul>
+      </div>
+      <div class="col-lg-4 col-sm-4 social-media text-right">
+        <h5 class="pb-3">Follow Us below on social media</h5>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="https://www.facebook.com/EliteDangerousOfficial/"><img src="images/facebook_logo_white.png" alt="Facebook Logo" width="100" class="img-fluid"></a></li>
+          <li class="list-inline-item"><a href="https://twitter.com/EliteDangerous"><img src="images/twitter.png" alt="Twitter Logo"  width="100" class="img-fluid"></a></li>
+          <li class="list-inline-item"><a href="https://www.youtube.com/EliteDangerous"><img src="images/youtube.png" alt="Youtube Logo"  width="100" class="img-fluid"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center text-light border-top pt-3">
+        <p>&copy; 2022 Copyright Frontier Developments, plc. All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!--end of Footer-->
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
